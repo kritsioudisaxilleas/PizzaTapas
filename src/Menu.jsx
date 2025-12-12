@@ -390,7 +390,7 @@ export default function Menu() {
     .menu-card {
       background: var(--color-white);
       border-radius: var(--border-radius);
-      padding: 1.75rem;
+      padding: 2rem;
       box-shadow: var(--shadow-sm);
       transition: var(--transition);
       border: 1px solid rgba(0, 0, 0, 0.04);
@@ -434,10 +434,10 @@ export default function Menu() {
     }
 
     .menu-item-price {
-      font-size: 1.125rem;
-      font-weight: 600;
-      color: var(--color-primary);
-      white-space: nowrap;
+       font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  white-space: nowrap;
     }
 
     .menu-item-desc {
@@ -454,14 +454,14 @@ export default function Menu() {
     }
 
     .menu-tag {
-      padding: 0.25rem 0.75rem;
-      background: var(--color-cream);
-      color: var(--color-text-light);
-      font-size: 0.7rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-radius: 50px;
+      padding: 4px 10px;
+  background: var(--color-cream);
+  color: var(--color-text-light);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 999px;
     }
 
     .menu-tag.popular {
@@ -484,15 +484,15 @@ export default function Menu() {
 
     .size-btn {
       flex: 1;
-      padding: 0.5rem 0.75rem;
-      background: var(--color-cream);
-      border: 2px solid transparent;
-      border-radius: 8px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--color-text);
-      cursor: pointer;
-      transition: var(--transition);
+  padding: 0.5rem 0.75rem;
+  background: var(--color-cream);
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: var(--transition);
     }
 
     .size-btn:hover {
@@ -502,8 +502,9 @@ export default function Menu() {
 
     .size-btn.active {
       background: var(--color-primary);
-      color: var(--color-white);
-      border-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  font-weight: 600;
     }
 
     /* ===== GALLERY SECTION ===== */
@@ -886,12 +887,13 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
 
   .ingredients::before {
     content: "Ingredients";
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #b0b0b0;
-    margin-bottom: 2px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #b0b0b0;
+  opacity: 0.7;
+  margin-bottom: 4px;
   }
 
 .hero-title {
@@ -919,6 +921,19 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
 @keyframes fadePulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.6; }
+}
+
+.footer-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: var(--color-white);
+}
+
+.footer-logo span {
+  color: var(--color-primary);
+  font-weight: 800;
 }
 
 
