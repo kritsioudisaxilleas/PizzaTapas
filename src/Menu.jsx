@@ -924,15 +924,15 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
         <div class="menu-grid">
 <div class="menu-card">
   <div class="menu-card-header">
-    <h4 class="menu-item-name">Tapas Pizza</h4>
+    <h4 class="menu-item-name">Tapa's Pizza</h4>
     <span class="menu-item-price"
           data-30="14.00"
-          data-40="16.00"
-          data-50="19.00">€10.00</span>
+          data-40="17.00"
+          data-50="19.00">€14.00</span>
   </div>
 
   <p class="menu-item-desc">
-    Σαλτσα ντοματας αγγουρι κτλπ κτλπ
+    Σάλτσα τομάτας,μοτσαρέλα,ρόκα,σαλάμι μπύρας,λουκάνικο πεπερόνι
   </p>
 
   <div class="pizza-sizes">
@@ -949,27 +949,82 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
 
           <div class="menu-card">
             <div class="menu-card-header">
-              <h4 class="menu-item-name">Margherita Classica</h4>
-              <span class="menu-item-price" data-30="10.00" data-40="12.50" data-50="15.00">€10.00</span>
+              <h4 class="menu-item-name">Margheritta </h4>
+              <span class="menu-item-price" data-30="12.00" data-40="14.00" data-50="16.00">€12.00</span>
             </div>
-            <p class="menu-item-desc">San Marzano tomatoes, fresh mozzarella di bufala, basil, extra virgin olive oil</p>
+            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα </p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag vegetarian">Vegetarian</span>
-              <span class="menu-tag popular">Popular</span>
             </div>
-          </div>
 
           <div class="menu-card">
             <div class="menu-card-header">
               <h4 class="menu-item-name">Quattro Formaggi</h4>
-              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="19.00">€13.00</span>
+              <span class="menu-item-price" data-30="14.00" data-40="17.00" data-50="19.00">€14.00</span>
             </div>
-            <p class="menu-item-desc">Mozzarella, gorgonzola, parmesan, ricotta, drizzled with honey and walnuts</p>
+            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,έμενταλ,μπλε τυρί,παρμεζάνα</p>
+            <div class="pizza-sizes">
+              <button class="size-btn active" data-size="30">30cm</button>
+              <button class="size-btn" data-size="40">40cm</button>
+              <button class="size-btn" data-size="50">50cm</button>
+            </div>
+            </div>
+
+          <div class="menu-card">
+            <div class="menu-card-header">
+              <h4 class="menu-item-name">Tuna Pizza </h4>
+              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
+            </div>
+            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,τόνος,κρεμμύδι,καλαμπόκι,πιπεριά </p>
+            <div class="pizza-sizes">
+              <button class="size-btn active" data-size="30">30cm</button>
+              <button class="size-btn" data-size="40">40cm</button>
+              <button class="size-btn" data-size="50">50cm</button>
+            </div>
+    
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-header">
+              <h4 class="menu-item-name">Vegeterian's Pizza </h4>
+              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
+            </div>
+            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,πιπεριές,μανιτάρια,τοματίνια,κολοκυθάκι,ελιές </p>
+            <div class="pizza-sizes">
+              <button class="size-btn active" data-size="30">30cm</button>
+              <button class="size-btn" data-size="40">40cm</button>
+              <button class="size-btn" data-size="50">50cm</button>
+            </div>
+            <div class="menu-item-tags">
+              <span class="menu-tag">Vegeterian </span>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-header">
+              <h4 class="menu-item-name">Special Pizza </h4>
+              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
+            </div>
+            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,ζαμπόν,μπέικον,σαλάμι μπύρας,πεπερόνι,μανιτάρια,πιπεριά </p>
+            <div class="pizza-sizes">
+              <button class="size-btn active" data-size="30">30cm</button>
+              <button class="size-btn" data-size="40">40cm</button>
+              <button class="size-btn" data-size="50">50cm</button>
+            </div>
+            <div class="menu-item-tags">
+              <span class="menu-tag">Popular</span>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-header">
+              <h4 class="menu-item-name">Light Pizza</h4>
+              <span class="menu-item-price" data-30="14.00" data-40="17.00" data-50="19.00">€14.00</span>
+            </div>
+            <p class="menu-item-desc">Σάλτσα τομάτας,κίτρινο τυρί με χαμηλά λιπαρά,γαλοπούλα κοτόπουλο,μανιτάρια,πιπεριά</p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
@@ -977,72 +1032,7 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
             </div>
             <div class="menu-item-tags">
               <span class="menu-tag vegetarian">Vegetarian</span>
-            </div>
-          </div>
-
-          <div class="menu-card">
-            <div class="menu-card-header">
-              <h4 class="menu-item-name">Diavola</h4>
-              <span class="menu-item-price" data-30="11.50" data-40="14.50" data-50="17.50">€11.50</span>
-            </div>
-            <p class="menu-item-desc">Spicy salami, San Marzano tomatoes, mozzarella, Calabrian chili, fresh oregano</p>
-            <div class="pizza-sizes">
-              <button class="size-btn active" data-size="30">30cm</button>
-              <button class="size-btn" data-size="40">40cm</button>
-              <button class="size-btn" data-size="50">50cm</button>
-            </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag">Spicy</span>
-              <span class="menu-tag popular">Popular</span>
-            </div>
-          </div>
-
-          <div class="menu-card">
-            <div class="menu-card-header">
-              <h4 class="menu-item-name">Prosciutto e Rucola</h4>
-              <span class="menu-item-price" data-30="14.50" data-40="17.50" data-50="20.50">€14.50</span>
-            </div>
-            <p class="menu-item-desc">Parma ham, wild arugula, shaved parmesan, cherry tomatoes, balsamic glaze</p>
-            <div class="pizza-sizes">
-              <button class="size-btn active" data-size="30">30cm</button>
-              <button class="size-btn" data-size="40">40cm</button>
-              <button class="size-btn" data-size="50">50cm</button>
-            </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag">Chef's Choice</span>
-            </div>
-          </div>
-
-          <div class="menu-card">
-            <div class="menu-card-header">
-              <h4 class="menu-item-name">Frutti di Mare</h4>
-              <span class="menu-item-price" data-30="16.00" data-40="19.00" data-50="22.00">€16.00</span>
-            </div>
-            <p class="menu-item-desc">Mixed seafood, garlic, white wine, cherry tomatoes, fresh parsley</p>
-            <div class="pizza-sizes">
-              <button class="size-btn active" data-size="30">30cm</button>
-              <button class="size-btn" data-size="40">40cm</button>
-              <button class="size-btn" data-size="50">50cm</button>
-            </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag">Seafood</span>
-            </div>
-          </div>
-
-          <div class="menu-card">
-            <div class="menu-card-header">
-              <h4 class="menu-item-name">Tartufo Nero</h4>
-              <span class="menu-item-price" data-30="19.00" data-40="22.00" data-50="25.00">€19.00</span>
-            </div>
-            <p class="menu-item-desc">Black truffle cream, wild mushrooms, fontina cheese, truffle oil, thyme</p>
-            <div class="pizza-sizes">
-              <button class="size-btn active" data-size="30">30cm</button>
-              <button class="size-btn" data-size="40">40cm</button>
-              <button class="size-btn" data-size="50">50cm</button>
-            </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag vegetarian">Vegetarian</span>
-              <span class="menu-tag">Premium</span>
+              <span class="menu-tag">Light & Tasty</span>
             </div>
           </div>
         </div>
