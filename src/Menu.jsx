@@ -215,11 +215,15 @@ export default function Menu() {
     }
 
     .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, var(--color-overlay), rgba(0, 0, 0, 0.7));
-    }
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.85)
+  );
+}
 
     .hero-content {
       position: relative;
@@ -240,7 +244,7 @@ export default function Menu() {
       font-weight: 500;
       letter-spacing: 0.15em;
       text-transform: uppercase;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       backdrop-filter: blur(4px);
     }
 
@@ -267,28 +271,29 @@ export default function Menu() {
     }
 
     .hero-scroll {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      color: var(--color-white);
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.25em;
-      opacity: 0.9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-    }
+  position: absolute;
+  bottom: 2.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
 
     .hero-scroll::after {
-      content: '';
-      width: 1px;
-      height: 40px;
-      background: linear-gradient(to bottom, var(--color-white), transparent);
-      animation: scrollBounce 2s infinite;
-    }
+  content: '';
+  width: 1.5px;
+  height: 48px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.95), transparent);
+  animation: scrollBounce 2s infinite;
+}
+
 
     @keyframes scrollBounce {
       0%, 100% { transform: translateY(0); opacity: 1; }
@@ -906,6 +911,15 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
   font-weight: 800;
 }
 
+
+.hero-scroll {
+  animation: fadePulse 2.5s infinite;
+}
+
+@keyframes fadePulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
 
 
   </style>
