@@ -51,7 +51,7 @@ export default function Menu() {
   <title>Pizzeria Pizza Tapas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" >
   <style>
     /* ===== CSS VARIABLES ===== */
     :root {
@@ -889,6 +889,23 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
     margin-bottom: 2px;
   }
 
+.hero-title {
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 0.10em;
+}
+/* NAVBAR LOGO TEXT – CLEAN */
+.nav-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+.nav-logo span {
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
 
 
   </style>
@@ -996,7 +1013,7 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
               <button class="size-btn" data-size="50">50cm</button>
             </div>
             <div class="menu-item-tags">
-              <span class="menu-tag">Popular</span>
+              <span class="menu-tag popular">Popular</span>
             </div>
           </div>
           
