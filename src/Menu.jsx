@@ -870,6 +870,27 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
   transform: translateY(-3px);
 }
 
+
+
+  .ingredients {
+    font-size: 14px;
+    color: #6b6b6b;
+    line-height: 1.55;
+    margin-top: 6px;
+  }
+
+  .ingredients::before {
+    content: "Ingredients";
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #b0b0b0;
+    margin-bottom: 2px;
+  }
+
+
+
   </style>
 </head>
 <body>
@@ -931,8 +952,8 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
           data-50="19.00">€14.00</span>
   </div>
 
-  <p class="menu-item-desc">
-    Σάλτσα τομάτας,μοτσαρέλα,ρόκα,σαλάμι μπύρας,λουκάνικο πεπερόνι
+  <p class="menu-item-desc ingredients">
+    Σάλτσα τομάτας, μοτσαρέλα, ρόκα, σαλάμι μπύρας, λουκάνικο πεπερόνι
   </p>
 
   <div class="pizza-sizes">
@@ -952,33 +973,40 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
               <h4 class="menu-item-name">Margheritta </h4>
               <span class="menu-item-price" data-30="12.00" data-40="14.00" data-50="16.00">€12.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα </p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, γκούντα </p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
+            <div class="menu-item-tags">
+    <span class="menu-tag popular">Popular</span>
+    <span class="menu-tag vegetarian">Vegeterian</span>
+  </div>
             </div>
-
-          <div class="menu-card">
+ <div class="menu-card">
             <div class="menu-card-header">
-              <h4 class="menu-item-name">Quattro Formaggi</h4>
-              <span class="menu-item-price" data-30="14.00" data-40="17.00" data-50="19.00">€14.00</span>
+              <h4 class="menu-item-name">Special Pizza </h4>
+              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,έμενταλ,μπλε τυρί,παρμεζάνα</p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, γκούντα,ζαμπόν, μπέικον, σαλάμι μπύρας, πεπερόνι, μανιτάρια,πιπεριά </p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
+            <div class="menu-item-tags">
+              <span class="menu-tag">Popular</span>
             </div>
+          </div>
+          
 
           <div class="menu-card">
             <div class="menu-card-header">
               <h4 class="menu-item-name">Tuna Pizza </h4>
               <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,τόνος,κρεμμύδι,καλαμπόκι,πιπεριά </p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, γκούντα, τόνος, κρεμμύδι, καλαμπόκι, πιπεριά </p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
@@ -992,46 +1020,42 @@ letter-spacing: 0.05em;   /* πιο καθαρό, premium */
               <h4 class="menu-item-name">Vegeterian's Pizza </h4>
               <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,πιπεριές,μανιτάρια,τοματίνια,κολοκυθάκι,ελιές </p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, γκούντα, πιπεριές, μανιτάρια, τοματίνια, κολοκυθάκι, ελιές </p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
             <div class="menu-item-tags">
-              <span class="menu-tag">Vegeterian </span>
+              <span class="menu-tag vegetarian">Vegeterian </span>
             </div>
           </div>
 
           <div class="menu-card">
             <div class="menu-card-header">
-              <h4 class="menu-item-name">Special Pizza </h4>
-              <span class="menu-item-price" data-30="13.00" data-40="16.00" data-50="18.00">€13.00</span>
+              <h4 class="menu-item-name">Quattro Formaggi</h4>
+              <span class="menu-item-price" data-30="14.00" data-40="17.00" data-50="19.00">€14.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,γκούντα,ζαμπόν,μπέικον,σαλάμι μπύρας,πεπερόνι,μανιτάρια,πιπεριά </p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, γκούντα, έμενταλ, μπλε τυρί, παρμεζάνα</p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
-            <div class="menu-item-tags">
-              <span class="menu-tag">Popular</span>
             </div>
-          </div>
 
           <div class="menu-card">
             <div class="menu-card-header">
               <h4 class="menu-item-name">Light Pizza</h4>
               <span class="menu-item-price" data-30="14.00" data-40="17.00" data-50="19.00">€14.00</span>
             </div>
-            <p class="menu-item-desc">Σάλτσα τομάτας,κίτρινο τυρί με χαμηλά λιπαρά,γαλοπούλα κοτόπουλο,μανιτάρια,πιπεριά</p>
+            <p class="menu-item-desc ingredients">Σάλτσα τομάτας, κίτρινο τυρί με χαμηλά λιπαρά, γαλοπούλα κοτόπουλο, μανιτάρια, πιπεριά</p>
             <div class="pizza-sizes">
               <button class="size-btn active" data-size="30">30cm</button>
               <button class="size-btn" data-size="40">40cm</button>
               <button class="size-btn" data-size="50">50cm</button>
             </div>
             <div class="menu-item-tags">
-              <span class="menu-tag vegetarian">Vegetarian</span>
               <span class="menu-tag">Light & Tasty</span>
             </div>
           </div>
